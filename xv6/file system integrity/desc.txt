@@ -1,0 +1,3 @@
+Implement file system integrity solution in the xv6 operating system. When modifying blocks on disk, maintain a hash of
+altered data. When we access the block in the future, we can check the data against the respective hash. If there is a mismatch,
+then this implies that the data on disk has been altered without the operating systems consent. This can imply corruption.
